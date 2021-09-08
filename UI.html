@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title>user interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="純練習用的一個耍廢度日的作品集，內容主要是使用者介面相關。">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="Shortcut Icon" type="image/x-icon" href="img/icon.png" />
+
+    <script src="js/portfolio.js" defer></script>
+</head>
+
+<body>
+
+    <h1 class="top-title">網頁原型</h1>
+    <div class="container">
+        <div>
+            <img src="img/web-01.png" alt="web-01" onclick="img_enlarge(this)">
+        </div>
+        <div>
+            <img src="img/web-02.png" alt="web-02" onclick="img_enlarge(this)">
+        </div>
+    </div>
+
+    <div class="menu">
+        <input type="image" src="img/top.svg" onclick="move_top()" class="item">
+        <input type="image" src="img/home.svg" onclick="location.href = '/'" class="item">
+    </div>
+
+</body>
+
+</html>
