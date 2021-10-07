@@ -7,18 +7,14 @@
 ## 成品靜止圖
 
 簡歷
-![index](img/index.png)
-
+![index](./img/index.jpg)
 內頁
-![內頁](./img/內頁.png)
+![內頁](./img/內頁.jpg)
 
 ---
 
 ## 設計過程
 
 初稿
-![初稿](./img/web-01.png)
-
-二稿 （動圖）
-![初稿](./img/web-02.png)
+![初稿](./img/web-01.jpg)
 

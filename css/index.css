@@ -295,7 +295,6 @@ body {
     box-shadow: 1px 3px 10px 0.1px var(--color-1) inset;
     filter: drop-shadow(0px 0px 5px var(--color-10));
     transform: translate3d(0,0,0);
-    will-change: transform;
 }
 
 #Gd_decs, #An_decs, #Ui_decs, #Wd_decs, #Gp_decs, address {
@@ -310,12 +309,10 @@ body {
 /* 入場an設定 */
 
 .an-right {
-    will-change: transform;
     animation: an-right 0.8s ease-in 1 forwards;
 }
 
 .an-left {
-    will-change: transform;
     animation: an-left 0.8s ease-in 1 forwards;
 }
 
@@ -338,27 +335,22 @@ body {
 /* 進度條an設定 */
 
 .pct-1 {
-    will-change: transform;
     animation: run-1 1s 1.2s ease-in forwards;
 }
 
 .pct-2 {
-    will-change: transform;
     animation: run-2 1s 1.4s ease-in forwards;
 }
 
 .pct-3 {
-    will-change: transform;
     animation: run-3 1s 1.6s ease-in forwards;
 }
 
 .pct-4 {
-    will-change: transform;
     animation: run-4 1s 1.8s ease-in forwards;
 }
 
 .pct-5 {
-    will-change: transform;
     animation: run-5 1s 2s ease-in forwards;
 }
 

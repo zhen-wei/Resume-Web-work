@@ -6,49 +6,82 @@
     <title>graphic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="純練習用的一個耍廢度日的作品集，內容主要是平面相關。">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="Shortcut Icon" type="image/x-icon" href="img/icon.png" />
-    <script  src="js/portfolio.js" defer></script>
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="icon" type="image/png" href="./img/icon.png" />
+    <link rel="icon" type="image/webp" href="./img/icon.webp" />
+    <script src="./js/portfolio.js" defer></script>
 </head>
 
 <body>
-
     <h1 class="top-title">平面設計</h1>
     <div class="container">
         <div>
-            <img src="img/ball.jpg" alt="ball" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/ball.avif" type="image/avif">
+                <source srcset="./img/ball.webp" type="image/webp">
+                <img src="./img/ball.jpg" alt="ball" onclick="img_enlarge(this)">
+            </picture>
         </div>
         <div>
-            <img src="img/book.png" alt="book" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/book.avif" type="image/avif">
+                <source srcset="./img/book.webp" type="image/webp">
+                <img src="./img/book.jpg" alt="book" onclick="img_enlarge(this)">
+            </picture>
         </div>
         <div>
-            <img src="img/shoe.jpg" alt="shoe" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/shoe.avif" type="image/avif">
+                <source srcset="./img/shoe.webp" type="image/webp">
+                <img src="./img/shoe.jpg" alt="shoe" onclick="img_enlarge(this)">
+            </picture>
         </div>
     </div>
 
     <h1 class="top-title">像素素材</h1>
     <div class="container">
         <div>
-            <img src="img/apple.png" alt="apple" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/apple.webp" type="image/webp">
+                <img src="./img/apple.png" alt="apple" onclick="img_enlarge(this)">
+            </picture>
         </div>
         <div>
-            <img src="img/cube.png" alt="cube" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/cube.webp" type="image/webp">
+                <img src="./img/cube.png" alt="cube" onclick="img_enlarge(this)">
+            </picture>
         </div>
         <div>
-            <img src="img/box.png" alt="box" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/box.webp" type="image/webp">
+                <img src="./img/box.png" alt="box" onclick="img_enlarge(this)">
+            </picture>
         </div>
     </div>
 
     <h1 class="top-title">素描練習</h1>
     <div class="container">
         <div>
-            <img src="img/cloth.jpg" alt="cloth" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/cloth.avif" type="image/avif">
+                <source srcset="./img/cloth.webp" type="image/webp">
+                <img src="./img/cloth.jpg" alt="cloth" onclick="img_enlarge(this)">
+            </picture>
         </div>
         <div>
-            <img src="img/fruit.jpg" alt="fruit" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/fruit.avif" type="image/avif">
+                <source srcset="./img/fruit.webp" type="image/webp">
+                <img src="./img/fruit.jpg" alt="fruit" onclick="img_enlarge(this)">
+            </picture>
         </div>
         <div>
-            <img src="img/sundries.jpg" alt="sundries" onclick="img_enlarge(this)">
+            <picture>
+                <source srcset="./img/sundries.avif" type="image/avif">
+                <source srcset="./img/sundries.webp" type="image/webp">
+                <img src="./img/sundries.jpg" alt="sundries" onclick="img_enlarge(this)">
+            </picture>
         </div>
     </div>
 
