@@ -148,19 +148,19 @@ body {
 /* 文字 */
 
 .font-1 {
-    font-size: 6.5vmin;
+    font-size: 3rem;
 }
 
 .font-2 {
-    font-size: 3.9vmin;
+    font-size: 2rem;
 }
 
 .font-3 {
-    font-size: 3vmin;
+    font-size: 1.8rem;
 }
 
 .font-4 {
-    font-size: 1.8vmin;
+    font-size: 1.2rem;
 }
 
 .t-c1 {
@@ -474,8 +474,7 @@ body {
 }
 
 /*尺寸調整*/
-
-@media screen and (max-aspect-ratio: 1067/630), (max-height: 525px) {
+@media screen and (max-width: 1200px) {
     .page-box {
         grid-template-columns: 1fr 9fr;
         justify-content: center;
@@ -513,7 +512,7 @@ body {
 }
 
 @media screen and (max-width: 824px) {
-    .font-1 {
+    /* .font-1 {
         font-size: 54px;
     }
     .font-2 {
@@ -524,7 +523,7 @@ body {
     }
     .font-4 {
         font-size: 15px;
-    }
+    } */
     h1>span {
         display: block;
     }
@@ -544,29 +543,40 @@ body {
     #Gd_decs, #An_decs, #Ui_decs, #Wd_decs, #Gp_decs, #svg_decs, address {
         display: none;
     }
-}
-
-@media screen and (max-width: 824px) {
     .svg-box-2 .font-3 {
         font-size: 2.2rem;
     }
 }
 
-
-@media screen and (min-width: 612px) {
+@media screen and (min-width: 1400px) {
     #Gd::after {
+        font-size: 1.3rem;
         content: '（Graphic design）';
     }
     #An::after {
+        font-size: 1.3rem;
         content: '（Graphic design）';
     }
     #Ui::after {
+        font-size: 1.3rem;
         content: '（User interface design）';
     }
     #Wd::after {
+        font-size: 1.3rem;
         content: '（Web Design）';
     }
     #Gp::after {
+        font-size: 1.3rem;
         content: '（Game production）';
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #Gd::after,
+    #An::after,
+    #Ui::after,
+    #Wd::after,
+    #Gp::after {
+        font-size: 1.5rem;
     }
 }
